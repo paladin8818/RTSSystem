@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    
+    "name": "RTSSystem Chrome plugin v 1.0",
+    "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": ["https://www.ufs-online.ru/interfaces/webrzhd/Rzhd/Train/BuyTicket/*"],
+            "js": ["js/rtssystem_logic.js"],
+            "css": ["css/rtssystem_style.css"]
+	}
+    ]
+}
