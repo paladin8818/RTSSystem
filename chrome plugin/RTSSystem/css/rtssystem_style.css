@@ -2,4 +2,34 @@
     Created on : 13.04.2016, 17:15:03
     Author     : Дмитрий
 */
+#rtssystem-topmargin {
+  width: 100%;
+  height: 40px;
+}
+#rtssystem-basecontainer {
+  position: fixed;
+  background: white;
+  width: 100%;
+  height: 40px;
+  z-index: 10000;
+  box-shadow: 0 2px 2px #E0E0E0;
+}
+#rtssystem-basecontainer .menu {
+  width: 100%;
+  height: 40px;
+}
+#rtssystem-basecontainer .menu .item {
+  width: 200px;
+  height: 40px;
+  border-right: 1px solid silver;
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: bold;
+}
+#rtssystem-basecontainer .menu .item:hover {
+  background: whitesmoke;
+}
 /*# sourceMappingURL=rtssystem_style.css.map */

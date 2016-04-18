@@ -3,12 +3,25 @@
     
     "name": "RTSSystem Chrome plugin v 1.0",
     "version": "1.0",
-
+    "permissions": ["<all_urls>"],
     "content_scripts": [
         {
-            "matches": ["https://www.ufs-online.ru/interfaces/webrzhd/Rzhd/Train/BuyTicket/*"],
-            "js": ["js/rtssystem_logic.js"],
+            "matches": ["https://ufs-online.ru/interfaces/webrzhd/Rzhd/Train/BuyTicket/*"],
+            "js": [
+                    "js/rtssystem_utility.js",
+                    "js/rtssystem_storage.js",
+                    "js/rtssystem_logic.js",
+                    "js/rtssystem_init.js"
+            ],
             "css": ["css/rtssystem_style.css"]
-	}
+        },
+        {
+            "matches": ["https://ufs-online.ru/interfaces/webrzhd/Rzhd/Train/Info/*"],
+            "js": [
+                "js/rtssystem_storage.js",
+                "js/rtssystem_utility.js",
+                "js/rtssystem_preload.js"
+            ]
+        }
     ]
 }

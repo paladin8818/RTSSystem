@@ -1,0 +1,9 @@
+/chrome plugin/RTSSystem/nbproject
+/chrome plugin/RTSSystem/less
+/chrome plugin/RTSSystem/css/*.map
+/chrome plugin/RTSSystem/test
+/chrome plugin/RTSSystem/js/rtssystem_settings.js
+/server app/RTSSystem/nbproject
+/chrome plugin/RTSSystemChromePlugin/nbproject/private/
+/server app/RTSSystem/src/*.pem
+/server app/RTSSystem/src/config
